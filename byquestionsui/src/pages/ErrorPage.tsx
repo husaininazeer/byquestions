@@ -1,7 +1,6 @@
 import { ReactElement } from "react";
 import { Link } from "react-router-dom";
 import Layout from "../components/Layout/Layout";
-// import "./ErrorPage.scss";
 
 const ErrorPage = (): ReactElement => {
   return (
