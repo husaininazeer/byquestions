@@ -1,7 +1,7 @@
 import { ReactElement } from "react";
 import "./NavBar.scss";
 
-const navbar = (): ReactElement => {
+const Navbar = (): ReactElement => {
   return (
     <div className="navbar">
       <div className="aynLogo">
@@ -15,4 +15,4 @@ const navbar = (): ReactElement => {
   );
 };
 
-export default navbar;
+export default Navbar;
