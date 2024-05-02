@@ -1,0 +1,30 @@
+@import "../../responsive.scss";
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 2em;
+  align-items: center;
+
+  @include phone {
+    flex-direction: column;
+    transition: all ease-out 2s;
+  }
+}
+
+.aynLogo > a {
+  font-size: 70px;
+  flex-grow: 2;
+
+  @include phone {
+    font-size: 60px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: x-large;
+  text-transform: capitalize;
+}
