@@ -1,16 +1,19 @@
 import { ReactElement } from "react";
+import { Link } from "react-router-dom";
 import "./NavBar.scss";
+
+import paths from "../../paths";
 
 const Navbar = (): ReactElement => {
   return (
     <div className="navbar">
       <div className="aynLogo">
-        <a href="">ع</a>
+        <Link to={paths.basePages.home}>ع</Link>
       </div>
-      <a href="">about</a>
-      <a href="">projects</a>
-      <a href="">blog</a>
-      <a href="">contact</a>
+      <Link to={paths.basePages.about}>about</Link>
+      <Link to={paths.basePages.projects}>projects</Link>
+      <Link to={paths.basePages.blog}>blog</Link>
+      <Link to={paths.basePages.contact}>contact</Link>
     </div>
   );
 };
