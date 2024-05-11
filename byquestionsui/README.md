@@ -34,5 +34,6 @@ export default {
 - [ ] Basic Frontend
   - [ ] Add pages
     - [ ] Add pages in a template fashion (so we can feed in markdown files)
+    - [ ] Refactor the routes to have a single basePage entry point (list-type pages like blog and projects would be separate category)
   - [ ] Get go binaries working
   - [ ] Basic page template that allows flashcard functionality
