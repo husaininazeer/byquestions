@@ -1,6 +1,6 @@
 import { ReactElement } from "react";
 import NavBar from "../NavBar/NavBar";
-import "../Layout/layout.scss";
+import "../Layout/Layout.scss";
 
 interface LayoutProps {
   children: ReactElement[] | ReactElement;
