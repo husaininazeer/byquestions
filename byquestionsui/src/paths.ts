@@ -1,10 +1,10 @@
 const paths = {
   basePages: {
     home: "/",
-    about: "about/",
-    blog: "blog/",
-    contact: "contact/",
-    projects: "projects/",
+    about: "/about/",
+    blog: "/blog/",
+    contact: "/contact/",
+    projects: "/projects/",
   },
 };
 
