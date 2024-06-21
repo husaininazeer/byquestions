@@ -1,8 +1,9 @@
+import { ReactElement } from "react";
 import "./ListContainer.scss";
-const ListContainer = () => {
+const ListContainer = ({ pageTitle }: { pageTitle: string }): ReactElement => {
   return (
     <div className="listContainer">
-      <h1>Blog</h1>
+      <h1>{pageTitle}</h1>
       <div className="listChild">
         <div className="headingContainer">
           <h2> Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>

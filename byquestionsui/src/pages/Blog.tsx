@@ -4,7 +4,7 @@ import ListContainer from "../components/ListContainer/ListContainer";
 const Blog = () => {
   return (
     <Layout>
-      <ListContainer></ListContainer>
+      <ListContainer pageTitle="Blog"></ListContainer>
     </Layout>
   );
 };
