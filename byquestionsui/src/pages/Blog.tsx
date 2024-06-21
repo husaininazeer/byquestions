@@ -1,9 +1,10 @@
 import Layout from "../components/Layout/Layout";
+import ListContainer from "../components/ListContainer/ListContainer";
 
 const Blog = () => {
   return (
     <Layout>
-      <div>Blog Page</div>
+      <ListContainer></ListContainer>
     </Layout>
   );
 };

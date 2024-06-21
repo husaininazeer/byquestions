@@ -3,7 +3,7 @@
 .navbar {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding-top: 2em;
   align-items: center;
 
@@ -27,4 +27,5 @@ a {
   color: inherit;
   font-size: x-large;
   text-transform: capitalize;
+  font-family: Roboto;
 }
